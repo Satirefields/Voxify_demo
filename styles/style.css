@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Tinos", normal;
+  height: 100vh;
+  background-image: radial-gradient(
+    rgb(184, 162, 162),
+    rgb(127, 136, 143),
+    rgb(32, 31, 43)
+  );
+  background-size: 0.5px 0.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#container {
+  width: 500px;
+  background-color: rgb(241, 245, 249);
+  border-radius: 27px;
+  padding: 23px;
+}
+
+h1 {
+  color: rgb(241, 245, 249);
+  background: rgb(144, 81, 168);
+  border-bottom: 5px solid rgb(83, 101, 164);
+  border-radius: 10px 10px 0 0;
+  text-align: center;
+  font-size: 50px;
+  padding: 5px 0;
+}
+
+select, input, textarea {
+  color:  rgb(241, 245, 249);
+  background: rgb(161, 128, 180);
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 20px;
+}
+
+textarea {
+  height: 150px;
+}
+
+#buttons {
+  display: flex;
+}
+
+#buttons button {
+  border-radius: 27px;
+  padding: 23px;
+  color:  rgb(241, 245, 249);
+  background: rgb(150, 81, 190);
+  border: 0;
+  width: 50%;
+  font-size: 20px;
+  border-bottom: 5px solid rgb(83, 101, 164);
+  cursor: pointer;
+  padding: 10px;
+  margin: 0 10px;
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.2s ease;
+}
+
+button:hover {
+  transform: translateY(-5px); 
+  box-shadow: 0 4px 8px rgba(117, 111, 111, 0.2); 
+  background-color: #afc7b0; 
+
+}
+
+#buttons_other {
+  top: 2px
+}
+
